@@ -18,6 +18,7 @@ public class BuiltInFuncs {
         Supplier<String> getString = () -> "Hello, Lambda!";
 
         // Test Predicate
+        System.out.println(); // space for readability :)
         int number = 10;
         System.out.println("Is " + number + " positive? " + isPositive.test(number));
 
